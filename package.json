@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.13.2",
+    "nodemon": "^3.1.9",
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Learning nodejs",
+  "main": "callback_func.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akash",
+  "license": "ISC"
+}
