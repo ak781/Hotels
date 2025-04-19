@@ -1,6 +1,8 @@
 import express from 'express'
 import db from './db.js'
-require('dotenv').config()
+import dotenv from 'dotenv';
+dotenv.config();
+
 const app = express();
 
 import bodyParser from'body-parser'
