@@ -17,5 +17,5 @@
   },
   "author": "Akash",
   "license": "ISC",
-  "type": "module"
+  "type": "commonjs"
 }

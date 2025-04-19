@@ -1,6 +1,6 @@
 const express = require('express')
 
-// import MenuItem from './models/Menu.js'
+
 const MenuItem = require('./../models/Menu.js');
 const router = express.Router()
 

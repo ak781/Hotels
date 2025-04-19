@@ -1,11 +1,11 @@
-import express from 'express'
-import db from './db.js'
-import dotenv from 'dotenv';
-dotenv.config();
+const express= require('express')
+
+require('dotenv').config();
+
 
 const app = express();
 
-import bodyParser from'body-parser'
+const bodyParser =require('body-parser')
 app.use(bodyParser.json());
 const PORT=process.env.PORT || 3000;
 
@@ -13,13 +13,12 @@ const PORT=process.env.PORT || 3000;
 
 //get method to get the persons
 
-import personRoutes from './routes/personRoutes.js'
+const personRoutes =require('./routes/personRoutes.js')
 app.use('/person',personRoutes);
 
 
 //menu get and post
-
-import menuRoutes from './routes/menuRoutes.js'
+const menuRoutes =require( './routes/menuRoutes.js')
 app.use('/menu',menuRoutes);
 
 
